@@ -1,6 +1,6 @@
 package model.services;
 
-public class PaypalService {
+public class PaypalService implements OnlinePaymentService{
 
 	private final static double FEE_PAYMENT = 0.02;
 	private final static double MONTHLY_INTEREST = 0.01;

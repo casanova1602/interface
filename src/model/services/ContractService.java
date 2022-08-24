@@ -8,9 +8,9 @@ import model.entities.Installment;
 
 public class ContractService {
 
-	private PaypalService ps;
+	private OnlinePaymentService ps;
 	
-	public ContractService(PaypalService ps) {
+	public ContractService(OnlinePaymentService ps) {
 		this.ps = ps;
 	}
 
