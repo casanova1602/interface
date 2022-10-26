@@ -21,7 +21,7 @@ public class Program {
 		System.out.println("Enter contract data");
 		System.out.print("Number: ");
 		int number = sc.nextInt();
-		System.out.print("Date (dd/MM/yyyy): ");
+		System.out.print("Date (dd/mm/yyyy): ");
 		Date date = sdf.parse(sc.next());
 		System.out.println("Contract Value: ");
 		double totalValue = sc.nextDouble();
