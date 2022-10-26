@@ -32,7 +32,7 @@ public class Installment {
 	}
 
 	public String toString() {
-		return sdf.format(dueDate) + " - " + String.format("%.2f", amount);
+		return sdf.format(dueDate) + " | " + String.format("%.2f", amount);
 	}
 	
 }
